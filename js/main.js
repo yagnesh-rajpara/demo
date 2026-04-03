@@ -11,7 +11,7 @@ const products = [
         name: "Eclat Diamond Ring",
         brand: "Jewellery",
         category: "Jewellery",
-        price: "$1,299.00",
+        price: "₹1,09,999",
         image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&q=80&w=800",
         description: "Exquisitely hand-crafted 18k white gold ring set with a brilliant-cut center diamond and a shimmering micro-pavé band. A timeless symbol of elegance and commitment.",
         features: ["18k White Gold", "0.5ct Diamond", "Handmade", "GIA Certified"]
@@ -21,7 +21,7 @@ const products = [
         name: "Velour Cashmere Overcoat",
         brand: "Clothing",
         category: "Clothing",
-        price: "$895.00",
+        price: "₹74,999",
         image: "https://images.unsplash.com/photo-1591047139829-d91aec16adcd?auto=format&fit=crop&q=80&w=800",
         description: "Meticulously tailored from luxurious Italian cashmere. Features a structured silhouette, peak lapels, and a silk-blend lining for ultimate comfort and sophistication.",
         features: ["100% Cashmere", "Italian Fabric", "Silk Lining", "Dry Clean Only"]
@@ -31,7 +31,7 @@ const products = [
         name: "Studio Pro Headphones",
         brand: "Electronics",
         category: "Electronics",
-        price: "$549.00",
+        price: "₹45,999",
         image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=800",
         description: "High-fidelity audio meets minimalist design. Active noise cancellation, 40-hour battery life, and spatial audio support. Redefining your auditory experience.",
         features: ["Noise Cancelling", "40h Battery", "Bluetooth 5.2", "USB-C Fast Charge"]
@@ -41,7 +41,7 @@ const products = [
         name: "Heritage Leather Weekend Bag",
         brand: "Clothing",
         category: "Clothing",
-        price: "$450.00",
+        price: "₹37,499",
         image: "https://images.unsplash.com/photo-1547949003-9792a18a2601?auto=format&fit=crop&q=80&w=800",
         description: "Hand-stitched full-grain leather. Designed to age beautifully, with brass hardware and reinforced straps for durability. The perfect companion for short escapes.",
         features: ["Full Grain Leather", "Brass Hardware", "Water Resistant", "45L Capacity"]
@@ -51,7 +51,7 @@ const products = [
         name: "Omni Smartwatch Pro",
         brand: "Electronics",
         category: "Electronics",
-        price: "$329.00",
+        price: "₹27,499",
         image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=800",
         description: "Precision health tracking, always-on OLED display, and seamless integration with your digital ecosystem. 50m water resistance and premium titanium finish.",
         features: ["Titanium Case", "OLED Display", "Heart Rate Monitor", "GPS Tracking"]
@@ -61,7 +61,7 @@ const products = [
         name: "Serenity Quartz Necklace",
         brand: "Jewellery",
         category: "Jewellery",
-        price: "$180.00",
+        price: "₹14,999",
         image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&q=80&w=800",
         description: "A delicate 14k gold chain paired with a hand-selected amethyst crystal. Designed to bring harmony and a touch of light to your every day attire.",
         features: ["14k Gold Chain", "Natural Amethyst", "18-inch Length", "Hypoallergenic"]
@@ -71,7 +71,7 @@ const products = [
         name: "Signature Leather Loafers",
         brand: "Footwear",
         category: "Clothing",
-        price: "$220.00",
+        price: "₹18,499",
         image: "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&q=80&w=800",
         description: "Classic silhouette meets modern comfort. These loafers are crafted from supple calfskin leather with a cushioned footbed for all-day wearability.",
         features: ["Handcrafted", "Calfskin Leather", "Orthopedic Sole", "Brogue Detailing"]
@@ -81,7 +81,7 @@ const products = [
         name: "Aura Smart Mirror",
         brand: "Home Tech",
         category: "Electronics",
-        price: "$1,199.00",
+        price: "₹99,999",
         image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=800",
         description: "Transform your morning routine with the Aura Smart Mirror. Featuring adjustable studio lighting, built-in voice assistant, and wellness tracking data displayed elegantly through the glass.",
         features: ["LED Lighting", "WiFi Connected", "Touch Control", "Shatterproof Glass"]
@@ -91,7 +91,7 @@ const products = [
         name: "Infinite Hoop Earrings",
         brand: "Jewellery",
         category: "Jewellery",
-        price: "$350.00",
+        price: "₹28,999",
         image: "https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&q=80&w=800",
         description: "Hand-polished 14k yellow gold hoops that offer a subtle yet striking statement. Lightweight for daily comfort, but bold enough for evening wear.",
         features: ["14k Yellow Gold", "Polished Finish", "Safety Latch", "Sustainable Sourcing"]
@@ -101,7 +101,7 @@ const products = [
         name: "Silk Evening Gown",
         brand: "Couture",
         category: "Clothing",
-        price: "$1,400.00",
+        price: "₹1,15,999",
         image: "https://images.unsplash.com/photo-1549062572-544a64fb0c56?auto=format&fit=crop&q=80&w=800",
         description: "A floor-length masterpiece in pure mulberry silk. Features a draped neckline and a tailored waist, creating a silhouette that flows gracefully with every movement.",
         features: ["100% Mulberry Silk", "Hand-stitched", "Hidden Zipper", "Limited Edition"]
@@ -111,7 +111,7 @@ const products = [
         name: "Titanium Sunglasses",
         brand: "Accessories",
         category: "Clothing",
-        price: "$280.00",
+        price: "₹22,999",
         image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&q=80&w=800",
         description: "Aerospace-grade titanium frames paired with polarized Zeis lenses. Virtually weightless and incredibly durable, offering superior UV protection and timeless style.",
         features: ["Titanium Frame", "Polarized Lenses", "Scratch Resistant", "UV400 Protection"]
@@ -121,7 +121,7 @@ const products = [
         name: "Lumina Desk Lamp",
         brand: "Home Tech",
         category: "Electronics",
-        price: "$145.00",
+        price: "₹11,999",
         image: "https://images.unsplash.com/photo-1542751110-97427bbecf20?auto=format&fit=crop&q=80&w=800",
         description: "Dimmable LED task lighting with touch-sensitive controls and an integrated wireless charger. Minimalist aluminum design that elevates any workspace.",
         features: ["LED Dimmable", "Wireless Charging", "USB Port", "Flexible Neck"]
@@ -330,7 +330,7 @@ const openDetail = (id) => {
     }
 
     // WhatsApp Message Encoding
-    const waNumber = "919000000000"; // Dynamic placeholder
+    const waNumber = "919123456789"; // Business WhatsApp Number
     const msg = encodeURIComponent(`Hi! I'm interested in the ${product.name} (${product.price}). Please share more details.`);
     document.getElementById('modal-whatsapp').href = `https://wa.me/${waNumber}?text=${msg}`;
 
